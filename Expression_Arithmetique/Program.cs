@@ -10,16 +10,14 @@ namespace Expression_arithmétique
     {
         public static void Main(string[] args)
         {
-            Console.Write(EvaluatePostfixExpr("1"));
+            Console.Write(EvaluatePostfixExpr("1+2"));
         }
-
         /*
         * @pre expression != null
         * expression [i] == ’+’, ’-’, ’*’, ’/’ or is an integer
         * @post The returned value contains the evaluation of the specified postfix expression
         * or 0 if it is empty
         */
-
         public static int EvaluatePostfixExpr(params string[] expe)
         {
             var ope = new List<string>
