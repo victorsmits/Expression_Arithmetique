@@ -17,11 +17,13 @@ namespace Expression_arithmétique
             //infixe groupe test
             Assert.AreEqual(6, MainClass.EvaluatePostfixExpr("(1+2)+3"));
             Assert.AreEqual(9, MainClass.EvaluatePostfixExpr("(1+2)*3"));
+            Assert.AreEqual(0, MainClass.EvaluatePostfixExpr("(1+2)-3"));
+            Assert.AreEqual(1, MainClass.EvaluatePostfixExpr("(1+2)/3"));
             Assert.AreEqual(8, MainClass.EvaluatePostfixExpr("(1+2)+(3+2)"));
             //infixe groupe test
             //Assert.AreEqual(8, MainClass.EvaluatePostfixExpr("++12+32"));
             //postfixe groupe test
-            Assert.AreEqual(8, MainClass.EvaluatePostfixExpr("12+32++"));
+            //Assert.AreEqual(8, MainClass.EvaluatePostfixExpr("12+32++"));
 
 
         }

@@ -35,7 +35,6 @@ namespace Expression_arithmétique
                 {"(",")"}
             };
 
-
             Stack<int> value = new Stack<int>();
             Stack stack_ope = new Stack();
             Stack stack_groupe = new Stack();
