@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expression_Arithmetique", "Expression_Arithmetique\Expression_Arithmetique.csproj", "{05FE03A2-CC95-49F4-9858-C2B1C02FC157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05FE03A2-CC95-49F4-9858-C2B1C02FC157}.Debug|x86.ActiveCfg = Debug|x86
+		{05FE03A2-CC95-49F4-9858-C2B1C02FC157}.Debug|x86.Build.0 = Debug|x86
+		{05FE03A2-CC95-49F4-9858-C2B1C02FC157}.Release|x86.ActiveCfg = Release|x86
+		{05FE03A2-CC95-49F4-9858-C2B1C02FC157}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
