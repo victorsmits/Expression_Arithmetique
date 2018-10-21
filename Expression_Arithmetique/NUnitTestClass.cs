@@ -30,12 +30,11 @@ namespace Expression_arithmétique
             Assert.AreEqual(1, MainClass.EvaluatePostfixExpr("(1+2)/3"));
             Assert.AreEqual(8, MainClass.EvaluatePostfixExpr("(1+2)+(3+2)"));
 
-            //NON GERER
+            //-------------------------NON GERER---------------------------
             //infixe groupe test
             //Assert.AreEqual(8, MainClass.EvaluatePostfixExpr("++12+32"));
             //postfixe groupe test
             //Assert.AreEqual(8, MainClass.EvaluatePostfixExpr("12+32++"));
-
 
         }
     }
